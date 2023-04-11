@@ -1,4 +1,21 @@
 .App {
   background-color: #000000;
+}
+
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  height: 80px;
+}
+
+#About {
   min-height: 100vh;
+}
+
+#profile-picture {
+  border: 1px solid white;
+  width: 200px;
+  height: 275px;
 }
