@@ -15,9 +15,10 @@ body {
 }
 
 #profile-picture {
-  border: 1px solid white;
-  width: 200px;
-  height: 275px;
+  border: 0;
+  border-radius: 7px;
+  width: 265px;
+  height: 369px;
   padding: 0;
 }
 
