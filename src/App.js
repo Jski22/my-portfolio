@@ -31,10 +31,13 @@ function App() {
               </Container>
             </Col>
             <Col className="d-flex align-items-center">
-              <Card>Consequat velit elit ut dolor eiusmod ad minim qui. Consequat qui ex labore magna veniam proident anim eu ullamco culpa. Est ea anim ea irure nisi pariatur voluptate laboris ipsum do deserunt anim. Non et ullamco non et dolor.</Card>
+              <Card>
+                Consequat velit elit ut dolor eiusmod ad minim qui. Consequat qui ex labore magna veniam proident anim eu ullamco culpa. Est ea anim ea irure nisi pariatur voluptate laboris ipsum do deserunt anim. Non et ullamco non et dolor.
+              </Card>
             </Col>
           </Row>
         </Container>
+        <Container id="Skills"></Container>
       </body>
     </div>
   );

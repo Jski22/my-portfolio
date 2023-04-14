@@ -14,9 +14,13 @@ body {
   min-height: 100vh;
 }
 
+#Skills {
+  min-height: 100vh;
+  background-color: yellow;
+}
+
 #profile-picture {
   border: 0;
-  border-radius: 7px;
   width: 265px;
   height: 369px;
   padding: 0;
