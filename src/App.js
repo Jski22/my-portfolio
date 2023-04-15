@@ -1,11 +1,14 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import Container from "react-bootstrap/Container"
-import Card from "react-bootstrap/Card"
-import Image from "react-bootstrap/Image"
-import profilePic from "./assets/Headshot 4:12.png"
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+import Image from "react-bootstrap/Image";
+import profilePic from "./assets/Headshot 4:12.png";
+import htmlLogo from "./assets/icons8-html-5.svg";
+import cssLogo from "./assets/icons8-css3.svg";
+import jsLogo from "./assets/icons8-javascript.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -37,7 +40,11 @@ function App() {
             </Col>
           </Row>
         </Container>
-        <Container id="Skills"></Container>
+        <Container id="Skills">
+          <Image src={htmlLogo} className="icon icon-card"></Image>
+          <Image src={cssLogo} className="icon icon-card"></Image>
+          <Image src={jsLogo} className="icon icon-card"></Image>
+        </Container>
       </body>
     </div>
   );

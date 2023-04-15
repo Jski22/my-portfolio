@@ -16,7 +16,6 @@ body {
 
 #Skills {
   min-height: 100vh;
-  background-color: yellow;
 }
 
 #profile-picture {
@@ -29,4 +28,9 @@ body {
 .card {
   width: calc(20rem + 1vmin); 
   height: calc(12rem + 2vmin);
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
 }
