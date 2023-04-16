@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-#Skills {
+#Skills, #Projects {
   min-height: 100vh;
 }
 
@@ -28,10 +28,11 @@ body {
 .card {
   width: calc(20rem + 1vmin); 
   height: calc(12rem + 2vmin);
+  box-shadow: 0 5px 25px rgb(3, 49, 199);
 }
 
-#skills-header {
-  font-size: 5ch;
+#skills-header, #projects-header {
+  font-size: 3.5ch;
   font-weight: 600;
   color: white;
 }

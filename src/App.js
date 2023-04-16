@@ -38,7 +38,10 @@ function App() {
             </Col>
             <Col className="d-flex align-items-center">
               <Card>
-                Consequat velit elit ut dolor eiusmod ad minim qui. Consequat qui ex labore magna veniam proident anim eu ullamco culpa. Est ea anim ea irure nisi pariatur voluptate laboris ipsum do deserunt anim. Non et ullamco non et dolor.
+                <h4>About Me</h4>
+                <p>
+                  Consequat velit elit ut dolor eiusmod ad minim qui. Consequat qui ex labore magna veniam proident anim eu ullamco culpa. Est ea anim ea irure nisi pariatur voluptate laboris ipsum do deserunt anim. Non et ullamco non et dolor.
+                </p>
               </Card>
             </Col>
           </Row>
@@ -57,6 +60,9 @@ function App() {
             <Image src={reactLogo} className="icon icon-card"></Image>
             <Image src={gitLogo} className="icon icon-card"></Image>
           </Row> 
+        </Container>
+        <Container id="Projects">
+          <h2 id="projects-header">My Recent Projects</h2>
         </Container>
       </body>
     </div>
