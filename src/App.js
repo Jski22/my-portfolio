@@ -9,6 +9,9 @@ import profilePic from "./assets/Headshot 4:12.png";
 import htmlLogo from "./assets/icons8-html-5.svg";
 import cssLogo from "./assets/icons8-css3.svg";
 import jsLogo from "./assets/icons8-javascript.svg";
+import bootstrapLogo from "./assets/icons8-bootstrap.svg";
+import reactLogo from "./assets/icons8-react-native.svg";
+import gitLogo from "./assets/icons8-git.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -41,9 +44,19 @@ function App() {
           </Row>
         </Container>
         <Container id="Skills">
-          <Image src={htmlLogo} className="icon icon-card"></Image>
-          <Image src={cssLogo} className="icon icon-card"></Image>
-          <Image src={jsLogo} className="icon icon-card"></Image>
+          <Row id="skill-header-row" className="text-center">
+            <h2 id="skills-header">My Top Skills</h2>
+          </Row>
+          <Row id="first-logo-set" className="d-flex justify-content-center">
+            <Image src={htmlLogo} className="icon icon-card"></Image>
+            <Image src={cssLogo} className="icon icon-card"></Image>
+            <Image src={jsLogo} className="icon icon-card"></Image>
+          </Row> 
+          <Row id="second-logo-set" className="d-flex justify-content-center">
+            <Image src={bootstrapLogo} className="icon icon-card"></Image>
+            <Image src={reactLogo} className="icon icon-card"></Image>
+            <Image src={gitLogo} className="icon icon-card"></Image>
+          </Row> 
         </Container>
       </body>
     </div>
