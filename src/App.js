@@ -63,7 +63,11 @@ function App() {
         </Container>
         <Container id="Projects">
           <h2 id="projects-header">My Recent Projects</h2>
-          <Row></Row>
+          <Row>
+            <i className="project-card"></i>
+            <i className="project-card"></i>
+            <i className="project-card"></i>
+          </Row>
         </Container>
       </body>
     </div>
