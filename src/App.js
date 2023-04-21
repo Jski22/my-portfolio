@@ -62,8 +62,10 @@ function App() {
           </Row> 
         </Container>
         <Container id="Projects">
-          <h2 id="projects-header">My Recent Projects</h2>
-          <Row>
+          <Row id="project-header-row" className="text-center">
+            <h2 id="projects-header">My Recent Projects</h2>
+          </Row>
+          <Row id="project-row" className="d-flex justify-content-center">
             <i className="project-card"></i>
             <i className="project-card"></i>
             <i className="project-card"></i>
