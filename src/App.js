@@ -12,6 +12,9 @@ import jsLogo from "./assets/icons8-javascript.svg";
 import bootstrapLogo from "./assets/icons8-bootstrap.svg";
 import reactLogo from "./assets/icons8-react-native.svg";
 import gitLogo from "./assets/icons8-git.svg";
+import jsProject from "./assets/JS Calculator SS.png";
+import pomoProject from "./assets/25+5 Clock SS.png";
+import dmProject from "./assets/Drum Machine SS.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -66,9 +69,15 @@ function App() {
             <h2 id="projects-header">My Recent Projects</h2>
           </Row>
           <Row id="project-row" className="d-flex justify-content-center">
-            <i className="project-card"></i>
-            <i className="project-card"></i>
-            <i className="project-card"></i>
+            <div className="project-card">
+              <Image src={jsProject} className="project"></Image>
+            </div>
+            <div className="project-card">
+              <Image src={pomoProject} className="project"></Image>
+            </div>
+            <div className="project-card">
+              <Image src={dmProject} className="project"></Image>
+            </div>
           </Row>
         </Container>
       </body>

@@ -55,11 +55,17 @@ body {
   margin: 14px;
 }
 
+.project {
+  width: 75%;
+  height: 58%;
+}
+
 .project-card {
   border: 1px solid white;
   border-radius: 10px;
   background-color: rgb(55, 55, 55);
   margin: 14px;
+  text-align: center;
   width: 22rem;
   height: 17rem;
 }
