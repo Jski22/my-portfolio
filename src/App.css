@@ -57,7 +57,7 @@ body {
 
 .project {
   width: 75%;
-  height: 58%;
+  height: 45%;
 }
 
 .project-card {
@@ -67,5 +67,16 @@ body {
   margin: 14px;
   text-align: center;
   width: 22rem;
-  height: 17rem;
+  height: 23rem;
+}
+
+.project-title {
+  color: white;
+  font-size: 2ch;
+  padding-top: 5px;
+}
+
+.project-description {
+  color: white;
+  font-size: 1.4ch;
 }

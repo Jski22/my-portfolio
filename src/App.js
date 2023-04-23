@@ -69,15 +69,27 @@ function App() {
             <h2 id="projects-header">My Recent Projects</h2>
           </Row>
           <Row id="project-row" className="d-flex justify-content-center">
-            <div className="project-card">
+            <Col className="project-card">
               <Image src={jsProject} className="project"></Image>
-            </div>
-            <div className="project-card">
+              <h4 className="project-title">JavaScript Calculator</h4>
+              <p className="project-description">
+                Fugiat consectetur ut fugiat laborum ullamco laborum esse ut officia Lorem. Eiusmod esse est labore culpa voluptate non eu consequat eiusmod ipsum velit esse magna dolor. Aliquip non incididunt officia eu labore reprehenderit esse occaecat culpa amet.  
+              </p>
+            </Col>
+            <Col className="project-card">
               <Image src={pomoProject} className="project"></Image>
-            </div>
-            <div className="project-card">
+              <h4 className="project-title">25 + 5 Clock</h4>
+              <p className="project-description">
+                In sunt veniam cillum ad consequat incididunt anim in deserunt. Qui occaecat esse laborum proident proident magna magna pariatur exercitation. Nulla anim nulla nostrud pariatur culpa officia ex. Nulla sit excepteur deserunt irure incididunt.
+              </p>
+            </Col>
+            <Col className="project-card">
               <Image src={dmProject} className="project"></Image>
-            </div>
+              <h4 className="project-title">Drum Machine</h4>
+              <p className="project-description">
+                Aute laboris laborum aliqua mollit in id quis. Aute duis laboris Lorem elit fugiat aliquip pariatur aliquip ex. Consequat ut consectetur veniam do velit cupidatat velit ipsum laboris anim consectetur elit in. Cillum voluptate enim dolor consequat exercitation consequat excepteur minim cillum officia dolore.
+              </p>
+            </Col>
           </Row>
         </Container>
       </body>
