@@ -34,7 +34,7 @@ body {
   box-shadow: 0 5px 25px rgb(3, 49, 199);
 }
 
-#skills-header, #projects-header {
+#skills-header, #projects-header, #contact-header {
   font-size: 3.5ch;
   font-weight: 600;
   color: white;
@@ -81,7 +81,8 @@ body {
   padding-top: 5px;
 }
 
-.project-description {
+.project-description, .project-link {
   color: white;
   font-size: 1.4ch;
+  margin-bottom: 2px;
 }

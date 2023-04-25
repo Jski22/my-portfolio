@@ -49,7 +49,7 @@ function App() {
             </Col>
           </Row>
         </Container>
-        <Container id="Skills">
+        <Container id="Skills" className="align-items-center">
           <Row id="skill-header-row" className="text-center">
             <h2 id="skills-header">My Top Skills</h2>
           </Row>
@@ -77,6 +77,7 @@ function App() {
               <p className="project-description">
                 Fugiat consectetur ut fugiat laborum ullamco laborum esse ut officia Lorem. Eiusmod esse est labore culpa voluptate non eu consequat eiusmod ipsum velit esse magna dolor. Aliquip non incididunt officia eu labore reprehenderit esse occaecat culpa amet.  
               </p>
+              <a href="https://jski22.github.io/javascript-calculator/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
             <Col className="project-card">
               <div className="project-wrapper">
@@ -86,6 +87,7 @@ function App() {
               <p className="project-description">
                 In sunt veniam cillum ad consequat incididunt anim in deserunt. Qui occaecat esse laborum proident proident magna magna pariatur exercitation. Nulla anim nulla nostrud pariatur culpa officia ex. Nulla sit excepteur deserunt irure incididunt.
               </p>
+              <a href="https://jski22.github.io/25--5-clock/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
             <Col className="project-card">
               <div className="project-wrapper">
@@ -95,13 +97,14 @@ function App() {
               <p className="project-description">
                 Aute laboris laborum aliqua mollit in id quis. Aute duis laboris Lorem elit fugiat aliquip pariatur aliquip ex. Consequat ut consectetur veniam do velit cupidatat velit ipsum laboris anim consectetur elit in. Cillum voluptate enim dolor consequat exercitation consequat excepteur minim cillum officia dolore.
               </p>
+              <a href="https://jski22.github.io/drum-machine/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
           </Row>
         </Container>
       </body>
       <footer>
         <Container id="Contact">
-          <h2>Let's Work Together</h2>
+          <h2 id="contact-header">Let's Work Together</h2>
         </Container>
       </footer>
     </div>
