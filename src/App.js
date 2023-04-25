@@ -12,9 +12,9 @@ import jsLogo from "./assets/icons8-javascript.svg";
 import bootstrapLogo from "./assets/icons8-bootstrap.svg";
 import reactLogo from "./assets/icons8-react-native.svg";
 import gitLogo from "./assets/icons8-git.svg";
-import jsProject from "./assets/JS Calculator SS.png";
-import pomoProject from "./assets/25+5 Clock SS.png";
-import dmProject from "./assets/Drum Machine SS.png";
+import jsProject from "./assets/JS Calculator SS 2.png";
+import pomoProject from "./assets/25+5 Clock SS 2.png";
+import dmProject from "./assets/DM SS 2.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -25,9 +25,9 @@ function App() {
         <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
           <Navbar.Brand href="#home" className="ms-4">Justen Schilinski</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className="pe-4">About</Nav.Link>
-            <Nav.Link href="#home" className="pe-4">Skills</Nav.Link>
-            <Nav.Link href="#home" className="pe-4">Projects</Nav.Link>
+            <Nav.Link href="#About" className="pe-4">About</Nav.Link>
+            <Nav.Link href="#Skills" className="pe-4">Skills</Nav.Link>
+            <Nav.Link href="#Projects" className="pe-4">Projects</Nav.Link>
           </Nav>
         </Navbar>
       </header>
@@ -70,21 +70,27 @@ function App() {
           </Row>
           <Row id="project-row" className="d-flex justify-content-center">
             <Col className="project-card">
-              <Image src={jsProject} className="project"></Image>
+              <div className="project-wrapper">
+                <Image fluid src={jsProject}></Image>
+              </div>
               <h4 className="project-title">JavaScript Calculator</h4>
               <p className="project-description">
                 Fugiat consectetur ut fugiat laborum ullamco laborum esse ut officia Lorem. Eiusmod esse est labore culpa voluptate non eu consequat eiusmod ipsum velit esse magna dolor. Aliquip non incididunt officia eu labore reprehenderit esse occaecat culpa amet.  
               </p>
             </Col>
             <Col className="project-card">
-              <Image src={pomoProject} className="project"></Image>
+              <div className="project-wrapper">
+                <Image fluid src={pomoProject}></Image>
+              </div>
               <h4 className="project-title">25 + 5 Clock</h4>
               <p className="project-description">
                 In sunt veniam cillum ad consequat incididunt anim in deserunt. Qui occaecat esse laborum proident proident magna magna pariatur exercitation. Nulla anim nulla nostrud pariatur culpa officia ex. Nulla sit excepteur deserunt irure incididunt.
               </p>
             </Col>
             <Col className="project-card">
-              <Image src={dmProject} className="project"></Image>
+              <div className="project-wrapper">
+                <Image fluid src={dmProject}></Image> 
+              </div>
               <h4 className="project-title">Drum Machine</h4>
               <p className="project-description">
                 Aute laboris laborum aliqua mollit in id quis. Aute duis laboris Lorem elit fugiat aliquip pariatur aliquip ex. Consequat ut consectetur veniam do velit cupidatat velit ipsum laboris anim consectetur elit in. Cillum voluptate enim dolor consequat exercitation consequat excepteur minim cillum officia dolore.
@@ -93,6 +99,11 @@ function App() {
           </Row>
         </Container>
       </body>
+      <footer>
+        <Container id="Contact">
+          <h2>Let's Work Together</h2>
+        </Container>
+      </footer>
     </div>
   );
 }
