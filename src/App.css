@@ -86,3 +86,9 @@ body {
   font-size: 1.4ch;
   margin-bottom: 2px;
 }
+
+.social-icon{
+  color: white;
+  padding-right: 10px;
+  font-size: 60px;
+}

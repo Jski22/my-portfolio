@@ -15,6 +15,7 @@ import gitLogo from "./assets/icons8-git.svg";
 import jsProject from "./assets/JS Calculator SS 2.png";
 import pomoProject from "./assets/25+5 Clock SS 2.png";
 import dmProject from "./assets/DM SS 2.png";
+import { FaLinkedin, FaGithubSquare, FaEnvelope } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -105,6 +106,9 @@ function App() {
       <footer>
         <Container id="Contact">
           <h2 id="contact-header">Let's Work Together</h2>
+            <FaLinkedin className="social-icon" />
+            <FaGithubSquare className="social-icon" />
+            <FaEnvelope className="social-icon" />
         </Container>
       </footer>
     </div>
