@@ -42,9 +42,9 @@ function App() {
             </Col>
             <Col className="d-flex align-items-center">
               <Card>
-                <h4>About Me</h4>
+                <h4 id="introduction">Hi, my name is Justen</h4>
                 <p>
-                  Consequat velit elit ut dolor eiusmod ad minim qui. Consequat qui ex labore magna veniam proident anim eu ullamco culpa. Est ea anim ea irure nisi pariatur voluptate laboris ipsum do deserunt anim. Non et ullamco non et dolor.
+                  I'm a web developer, building useful applications on the internet
                 </p>
               </Card>
             </Col>
@@ -104,7 +104,7 @@ function App() {
         </Container>
       </body>
       <footer>
-        <Container id="Contact">
+        <Container id="Contact" className="text-center">
           <h2 id="contact-header">Let's Work Together</h2>
             <FaLinkedin className="social-icon" />
             <FaGithubSquare className="social-icon" />
