@@ -95,6 +95,7 @@ body {
   color: white;
   margin-right: 25px;
   font-size: 60px;
+  cursor: pointer;
 }
 
 h4 {

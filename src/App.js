@@ -76,7 +76,7 @@ function App() {
               </div>
               <h4 className="project-title">JavaScript Calculator</h4>
               <p className="project-description">
-                Fugiat consectetur ut fugiat laborum ullamco laborum esse ut officia Lorem. Eiusmod esse est labore culpa voluptate non eu consequat eiusmod ipsum velit esse magna dolor. Aliquip non incididunt officia eu labore reprehenderit esse occaecat culpa amet.  
+                Fully functional calculator built with mainly with JavaScript and Bootstrap. Made as an academic project to meet certain specifications. 
               </p>
               <a href="https://jski22.github.io/javascript-calculator/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
@@ -106,7 +106,9 @@ function App() {
       <footer>
         <Container id="Contact" className="text-center">
           <h2 id="contact-header">Let's Work Together</h2>
-            <FaLinkedin className="social-icon" />
+            <a href="https://www.linkedin.com/in/justen-schilinski-03700b125"
+            target="_blank"
+            rel="noreferrer"><FaLinkedin className="social-icon" /> </a>
             <FaGithubSquare className="social-icon" />
             <FaEnvelope className="social-icon" />
         </Container>
