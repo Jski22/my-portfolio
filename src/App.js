@@ -108,8 +108,14 @@ function App() {
           <h2 id="contact-header">Let's Work Together</h2>
             <a href="https://www.linkedin.com/in/justen-schilinski-03700b125"
             target="_blank"
-            rel="noreferrer"><FaLinkedin className="social-icon" /> </a>
-            <FaGithubSquare className="social-icon" />
+            rel="noreferrer">
+              <FaLinkedin className="social-icon" /> 
+            </a>
+            <a href="https://github.com/Jski22"
+            target="_blank"
+            rel="noreferrer">
+              <FaGithubSquare className="social-icon" />
+            </a>
             <FaEnvelope className="social-icon" />
         </Container>
       </footer>
