@@ -86,7 +86,7 @@ function App() {
               </div>
               <h4 className="project-title">25 + 5 Clock</h4>
               <p className="project-description">
-                In sunt veniam cillum ad consequat incididunt anim in deserunt. Qui occaecat esse laborum proident proident magna magna pariatur exercitation. Nulla anim nulla nostrud pariatur culpa officia ex. Nulla sit excepteur deserunt irure incididunt.
+                A timer you can use to study for a set number of minutes, preset to 25. When the time runs out it will switch over to the set number of minutes, in this case it is preset to 5. Built as a academic studies application. 
               </p>
               <a href="https://jski22.github.io/25--5-clock/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
