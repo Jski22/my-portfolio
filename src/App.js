@@ -116,7 +116,9 @@ function App() {
             rel="noreferrer">
               <FaGithubSquare className="social-icon" />
             </a>
-            <FaEnvelope className="social-icon" />
+            <a href="mailto:justenschilinski34@hotmail.com" >
+              <FaEnvelope className="social-icon" />
+            </a>
         </Container>
       </footer>
     </div>
