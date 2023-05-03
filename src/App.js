@@ -50,6 +50,9 @@ function App() {
             </Col>
           </Row>
         </Container>
+        <Container id="About-me">
+
+        </Container>
         <Container id="Skills" className="align-items-center">
           <Row id="skill-header-row" className="text-center">
             <h2 id="skills-header">My Top Skills</h2>
