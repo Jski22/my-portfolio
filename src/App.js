@@ -51,8 +51,8 @@ function App() {
           </Row>
         </Container>
         <Container id="About-me">
-          <Row>
-            <h2>About me</h2>
+          <Row id="about-me-header-row" className="text-center">
+            <h2 id="about-me-header">About me</h2>
           </Row>
           <Row>
             <p>Sint aliqua esse labore eu eu dolor reprehenderit est. Sunt cillum in et occaecat dolore. Enim ipsum commodo incididunt ea exercitation fugiat do elit cupidatat nostrud. Magna nostrud pariatur consequat do aute incididunt aliqua tempor labore nisi ad sit mollit. Sint eiusmod nulla qui esse consectetur et in dolor amet dolore elit. Nulla culpa aliqua nulla pariatur exercitation et ad do voluptate. Esse laborum minim consequat sunt nostrud ad fugiat voluptate in id labore minim sit est.</p>

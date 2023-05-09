@@ -20,6 +20,7 @@ body {
 
 #Contact, #About-me {
   min-height: 32vh;
+  color: white;
 }
 
 #profile-picture {
@@ -38,7 +39,7 @@ body {
   box-shadow: 0 5px 25px rgb(3, 49, 199);
 }
 
-#skills-header, #projects-header, #contact-header {
+#skills-header, #projects-header, #contact-header, #about-me-header {
   font-size: 3.5ch;
   font-weight: 600;
   color: white;
