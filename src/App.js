@@ -94,7 +94,7 @@ function App() {
               </div>
               <h4 className="project-title">25 + 5 Clock</h4>
               <p className="project-description">
-                A timer you can use to study for a set number of minutes, preset to 25. When the time runs out it will switch over to the set number of minutes, in this case it is preset to 5. Built as a academic studies application. 
+                A timer you can use to study for a set number of minutes, preset to 25. When the time runs out it will switch over to the break time number of minutes, the default is preset to 5. Built as a academic studies application. 
               </p>
               <a href="https://jski22.github.io/25--5-clock/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
@@ -104,7 +104,7 @@ function App() {
               </div>
               <h4 className="project-title">Drum Machine</h4>
               <p className="project-description">
-                Aute laboris laborum aliqua mollit in id quis. Aute duis laboris Lorem elit fugiat aliquip pariatur aliquip ex. Consequat ut consectetur veniam do velit cupidatat velit ipsum laboris anim consectetur elit in. Cillum voluptate enim dolor consequat exercitation consequat excepteur minim cillum officia dolore.
+                Another project made for academic studies. Funtions as a drum pad that when a specific pad is clicked on it will play a pre-recorded sound and display the title of that sound. The sound can also be triggered by pressing the associated key from your keyboard. 
               </p>
               <a href="https://jski22.github.io/drum-machine/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
             </Col>
