@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+        <Navbar bg="dark" variant="dark" expand="sm" fixed="top">
           <Navbar.Brand href="#home" className="ms-4">Justen Schilinski</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link href="#About" className="pe-4">About</Nav.Link>
