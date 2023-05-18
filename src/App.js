@@ -25,11 +25,14 @@ function App() {
       <header className="App-header">
         <Navbar bg="dark" variant="dark" expand="sm" fixed="top">
           <Navbar.Brand href="#home" className="ms-4">Justen Schilinski</Navbar.Brand>
-          <Nav className="ms-auto">
-            <Nav.Link href="#About" className="pe-4">About</Nav.Link>
-            <Nav.Link href="#Skills" className="pe-4">Skills</Nav.Link>
-            <Nav.Link href="#Projects" className="pe-4">Projects</Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link href="#About" className="pe-4">About</Nav.Link>
+              <Nav.Link href="#Skills" className="pe-4">Skills</Nav.Link>
+              <Nav.Link href="#Projects" className="pe-4">Projects</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
       </header>
       <body>
