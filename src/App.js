@@ -38,7 +38,7 @@ function App() {
       <body>
         <Container id="About" className="d-flex">
           <Row className="flex-fill">
-            <Col lg={7} className="d-flex align-items-center">
+            <Col lg={7} md={6} sm={5} className="d-flex align-items-center">
               <Container id="profile-picture">
                 <Image fluid className="rounded-5 border-info" src={profilePic}></Image>
               </Container>
