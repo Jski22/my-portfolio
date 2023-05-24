@@ -37,13 +37,13 @@ function App() {
       </header>
       <body>
         <Container id="About" className="d-flex">
-          <Row className="flex-fill">
+          <Row className="flex-fill" id="about-row">
             <Col lg={7} sm={5} className="d-flex align-items-center mx-auto col-6" id="pic-column" >
               <Container id="profile-picture">
                 <Image fluid className="rounded-5 border-info" src={profilePic}></Image>
               </Container>
             </Col>
-            <Col className="d-flex align-items-center">
+            <Col className="d-flex align-items-center" id="intro-column">
               <Card className="mx-auto">
                 <h4 id="introduction">Hi, my name is Justen</h4>
                 <p>

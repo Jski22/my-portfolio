@@ -107,15 +107,25 @@ h4 {
 }
 
 @media (max-width: 576px) {
-  #pic-column{
-    position: absolute;
-    top: 18%;
-    left: 25%;
+  #pic-column, #intro-column{
+    display: block;
   }
 
-  .card{
-    position: absolute;
-    top: 75%;
-    left: 22%;
+  #intro-column{
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  #About {
+    min-height: 65vh;
+  }
+
+  #pic-column {
+    margin-top: 18%;
+  }
+
+  .navbar {
+    height: 52px;
   }
 }
