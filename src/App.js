@@ -38,13 +38,13 @@ function App() {
       <body>
         <Container id="About" className="d-flex">
           <Row className="flex-fill">
-            <Col lg={7} md={6} sm={5} className="d-flex align-items-center">
+            <Col lg={7} sm={5} className="d-flex align-items-center mx-auto col-6" id="pic-column" >
               <Container id="profile-picture">
                 <Image fluid className="rounded-5 border-info" src={profilePic}></Image>
               </Container>
             </Col>
             <Col className="d-flex align-items-center">
-              <Card>
+              <Card className="mx-auto">
                 <h4 id="introduction">Hi, my name is Justen</h4>
                 <p>
                   I'm a web developer, building useful applications on the internet

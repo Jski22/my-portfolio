@@ -105,3 +105,17 @@ h4 {
   1px 1px 0 #000,
  1px -1px 0 #000;
 }
+
+@media (max-width: 576px) {
+  #pic-column{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+  }
+
+  .card{
+    position: absolute;
+    top: 75%;
+    left: 22%;
+  }
+}
