@@ -80,36 +80,42 @@ function App() {
           <Row id="project-header-row" className="text-center">
             <h2 id="projects-header">My Recent Projects</h2>
           </Row>
-          <Row id="project-row" className="d-flex justify-content-center">
-            <Col className="project-card">
-              <div className="project-wrapper">
-                <Image fluid src={jsProject}></Image>
-              </div>
-              <h4 className="project-title">JavaScript Calculator</h4>
-              <p className="project-description">
-                Fully functional calculator built with mainly with JavaScript and Bootstrap. Made as an academic project to meet certain specifications. 
-              </p>
-              <a href="https://jski22.github.io/javascript-calculator/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+          <Row xs="auto" xl={3} id="project-row" className="d-flex justify-content-center">
+            <Col id="project-1">
+              <Card className="project-card">
+                <div className="project-wrapper">
+                  <Image fluid src={jsProject}></Image>
+                </div>
+                <h4 className="project-title">JavaScript Calculator</h4>
+                <p className="project-description">
+                  Fully functional calculator built with mainly with JavaScript and Bootstrap. Made as an academic project to meet certain specifications. 
+                </p>
+                <a href="https://jski22.github.io/javascript-calculator/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+              </Card>
             </Col>
-            <Col className="project-card">
-              <div className="project-wrapper">
-                <Image fluid src={pomoProject}></Image>
-              </div>
-              <h4 className="project-title">25 + 5 Clock</h4>
-              <p className="project-description">
-                A timer you can use to study for a set number of minutes, preset to 25. When the time runs out it will switch over to the break time number of minutes, the default is preset to 5. Built as a academic studies application. 
-              </p>
-              <a href="https://jski22.github.io/25--5-clock/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+            <Col id="project-2">
+              <Card className="project-card">
+                <div className="project-wrapper">
+                  <Image fluid src={pomoProject}></Image>
+                </div>
+                <h4 className="project-title">25 + 5 Clock</h4>
+                <p className="project-description">
+                  A timer you can use to study for a set number of minutes, preset to 25. When the time runs out it will switch over to the break time number of minutes, the default is preset to 5. Built as a academic studies application. 
+                </p>
+                <a href="https://jski22.github.io/25--5-clock/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+              </Card>
             </Col>
-            <Col className="project-card">
-              <div className="project-wrapper">
-                <Image fluid src={dmProject}></Image> 
-              </div>
-              <h4 className="project-title">Drum Machine</h4>
-              <p className="project-description">
-                Another project made for academic studies. Funtions as a drum pad that when a specific pad is clicked on it will play a pre-recorded sound and display the title of that sound. The sound can also be triggered by pressing the associated key from your keyboard. 
-              </p>
-              <a href="https://jski22.github.io/drum-machine/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+            <Col id="project-3">
+              <Card className="project-card">
+                <div className="project-wrapper">
+                  <Image fluid src={dmProject}></Image> 
+                </div>
+                <h4 className="project-title">Drum Machine</h4>
+                <p className="project-description">
+                  Another project made for academic studies. Funtions as a drum pad that when a specific pad is clicked on it will play a pre-recorded sound and display the title of that sound. The sound can also be triggered by pressing the associated key from your keyboard. 
+                </p>
+                <a href="https://jski22.github.io/drum-machine/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+              </Card>
             </Col>
           </Row>
         </Container>
