@@ -58,7 +58,7 @@ function App() {
             <h2 id="about-me-header">About me</h2>
           </Row>
           <Row id="about-me-section" className="text-center">
-            <p>I'm web developer near Pittsburgh, PA. It has always been a passion of mine to be able to create things and doing it on the web seems like a perfect fit.</p>
+            <p>I'm web developer near Pittsburgh, PA. It has always been a passion of mine to be able to create things and using technology to do so has made me even more motivated. I look forward to working hard on new projects to bring great ideas to life.</p>
           </Row>
         </Container>
         <Container id="Skills" className="align-items-center">
