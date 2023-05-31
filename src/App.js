@@ -38,13 +38,13 @@ function App() {
       <body>
         <Container id="About" className="d-flex">
           <Row className="flex-fill" id="about-row">
-            <Col lg={7} sm={5} className="d-flex align-items-center mx-auto col-6" id="pic-column" >
+            <Col lg={7} md={6} sm={5} className="d-flex align-items-center mx-auto col-6" id="pic-column" >
               <Container id="profile-picture">
                 <Image fluid className="rounded-5 border-info" src={profilePic}></Image>
               </Container>
             </Col>
             <Col className="d-flex align-items-center" id="intro-column">
-              <Card className="mx-auto">
+              <Card id="intro-card">
                 <h4 id="introduction">Hi, my name is Justen</h4>
                 <p>
                   I'm a web developer, building useful applications on the internet
@@ -58,7 +58,7 @@ function App() {
             <h2 id="about-me-header">About me</h2>
           </Row>
           <Row id="about-me-section" className="text-center">
-            <p>I'm web developer near Pittsburgh, PA. It has always been a passion of mine to be able to create things and using technology to do so has made me even more motivated. I look forward to working hard on new projects to bring great ideas to life.</p>
+            <p>I'm located near Pittsburgh, PA and I have a passion to create, fix, and improve things. When I was a kid, it was always fun to see what I could make or how I could take something apart and fix it. In the last year I've learned to use several different programming tools, built many web applications, and I'm always interested to see what else I can learn. I look forward to working hard on new projects to bring great ideas to life.</p>
           </Row>
         </Container>
         <Container id="Skills" className="align-items-center">
