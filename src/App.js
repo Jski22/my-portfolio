@@ -88,7 +88,7 @@ function App() {
                 </div>
                 <h4 className="project-title">JavaScript Calculator</h4>
                 <p className="project-description">
-                  Fully functional calculator built with mainly with JavaScript and Bootstrap. Made as an academic project to meet certain specifications. 
+                  Fully functional calculator built with mainly with JavaScript and Bootstrap. Made as an academic project to meet certain specifications. Can perform all operations and does not allow multiple decimal points.
                 </p>
                 <a href="https://jski22.github.io/javascript-calculator/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
               </Card>
