@@ -107,13 +107,17 @@ h4 {
 }
 
 @media (max-width: 576px) {
-  #pic-column, #intro-column{
+  #pic-column, #intro-column {
     display: block;
   }
 
-  #intro-column{
+  #intro-column {
     justify-content: center;
     margin-bottom: 10%;
+  }
+
+  .nav-link {
+    opacity: 70%;
   }
 }
 
