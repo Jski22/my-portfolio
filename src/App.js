@@ -26,9 +26,9 @@ function App() {
         <Navbar collapseOnSelect bg="dark" variant="dark" expand="sm" fixed="top">
           <Navbar.Brand href="#home" className="ms-4">Justen Schilinski</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="me-3" />
-          <Navbar.Collapse className="ms-4" id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#About" className="pe-4">About</Nav.Link>
+              <Nav.Link href="#About" className="pe-4" id="about-link">About</Nav.Link>
               <Nav.Link href="#Skills" className="pe-4">Skills</Nav.Link>
               <Nav.Link href="#Projects" className="pe-4">Projects</Nav.Link>
             </Nav>
