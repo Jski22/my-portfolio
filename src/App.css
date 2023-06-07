@@ -124,6 +124,11 @@ h4 {
   #about-link {
     margin-top: 3px;
   }
+
+  .nav-link:hover {
+    background-color: black;
+    color: white;
+  }
 }
 
 @media (max-width: 767px) {
