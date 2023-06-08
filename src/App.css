@@ -34,7 +34,7 @@ body {
   height: calc(6.5rem + 2vmin);
   padding-left: 8px;
   padding-top: 5px;
-  background-color: #1c1c1d;
+  background-color: black;
   color: white;
   box-shadow: 0 5px 25px rgb(3, 49, 199);
 }
