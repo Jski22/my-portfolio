@@ -10,6 +10,11 @@ body {
   height: 80px;
 }
 
+.navbar-brand {
+  font-weight: 800;
+  font-size: 125%;
+}
+
 .nav-link {
   background-color: #212529;
 }
