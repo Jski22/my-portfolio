@@ -14,7 +14,7 @@ import reactLogo from "./assets/icons8-react-native.svg";
 import gitLogo from "./assets/icons8-git.svg";
 import jsProject from "./assets/JS Calculator SS 2.png";
 import pomoProject from "./assets/25+5 Clock SS 2.png";
-import dmProject from "./assets/DM SS 2.png";
+import gdpProject from "./assets/GDP Barchart SS2.png";
 import { FaLinkedin, FaGithubSquare, FaEnvelope } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -108,13 +108,13 @@ function App() {
             <Col id="project-3">
               <Card className="project-card">
                 <div className="project-wrapper">
-                  <Image fluid src={dmProject}></Image> 
+                  <Image fluid src={gdpProject}></Image> 
                 </div>
-                <h4 className="project-title">Drum Machine</h4>
+                <h4 className="project-title">US GDP Barchart</h4>
                 <p className="project-description">
                   Another project made for academic studies. Funtions as a drum pad that when a specific pad is clicked on it will play a pre-recorded sound and display the title of that sound. The sound can also be triggered by pressing the associated key from your keyboard. 
                 </p>
-                <a href="https://jski22.github.io/drum-machine/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
+                <a href="https://jski22.github.io/gdp-barchart/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
               </Card>
             </Col>
           </Row>
