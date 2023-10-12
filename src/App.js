@@ -112,7 +112,7 @@ function App() {
                 </div>
                 <h4 className="project-title">US GDP Barchart</h4>
                 <p className="project-description">
-                  Another project made for academic studies. Funtions as a drum pad that when a specific pad is clicked on it will play a pre-recorded sound and display the title of that sound. The sound can also be triggered by pressing the associated key from your keyboard. 
+                  Simple data visualizaiton barchart project. Uses data from an api source and then displays the GDP for the US for that given year. When hovering over a specific data point, the current bar will be highlighted and show the month and year in which it occurred. 
                 </p>
                 <a href="https://jski22.github.io/gdp-barchart/" target="_blank" rel="noreferrer" className="project-link">Check it Out</a>
               </Card>
