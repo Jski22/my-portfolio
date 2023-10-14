@@ -46,7 +46,7 @@ function App() {
             <Col className="d-flex align-items-center" id="intro-column">
               <Card id="intro-card">
                 <h4 id="introduction">Hi, my name is Justen</h4>
-                <p>
+                <p id="intro-line">
                   I'm a web developer, building useful applications on the internet
                 </p>
               </Card>
@@ -58,7 +58,9 @@ function App() {
             <h2 id="about-me-header">About me</h2>
           </Row>
           <Row id="about-me-section" className="text-center">
-            <p>I'm located near Pittsburgh, PA and I have a passion to create, fix, and improve things. When I was a kid, it was always fun to see what I could make or how I could take something apart and fix it. In the last year I've learned to use several different programming tools, built many web applications, and I'm always interested to see what else I can learn. I look forward to working hard on new projects to bring great ideas to life.</p>
+            <p>
+              I'm located near Pittsburgh, PA and I have a passion to create, fix, and improve things. When I was a younger, it was always fun to see what I could make or how I could take something apart and fix it. In the last year or so I've learned to use several different programming tools, built many web applications, and I'm always interested to see what else I can learn. I look forward to working hard on new projects to bring great ideas to life.
+            </p>
           </Row>
         </Container>
         <Container id="Skills" className="align-items-center">

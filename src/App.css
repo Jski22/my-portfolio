@@ -44,6 +44,10 @@ body {
   box-shadow: 0 5px 25px rgb(3, 49, 199);
 }
 
+#intro-line {
+  color: rgb(167, 166, 166)
+}
+
 #skills-header, #projects-header, #contact-header, #about-me-header {
   font-size: 3.5ch;
   font-weight: 600;
